@@ -1,0 +1,10 @@
+.main-nav {
+  @media (min-width: $mobile-width) {
+    width: 320px;
+    color: aqua;
+
+    .main-nav__list {
+      list-style: none;
+    }
+  }
+}
