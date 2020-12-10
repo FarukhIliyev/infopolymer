@@ -1,0 +1,13 @@
+.page-footer {
+  @media (min-width: $mobile-width) {
+    display: flex;
+    width: 320px;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+    background: linear-gradient(to right, $light-green, $dark-green);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+}

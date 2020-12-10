@@ -349,6 +349,18 @@ template {
     width: 1200px;
     margin: 0 auto; } }
 
+@media (min-width: 320px) {
+  .page-footer {
+    display: flex;
+    width: 320px;
+    margin: 0 auto; } }
+
+@media (min-width: 1200px) {
+  .page-footer {
+    width: 1200px;
+    background: linear-gradient(to right, #41b516, #207500);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); } }
+
 html {
   box-sizing: border-box; }
 
@@ -418,12 +430,12 @@ img {
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
-      width: 500px;
+      width: 100%;
       display: flex;
       align-items: center;
       text-transform: uppercase; }
     .main-nav .main-nav__item {
-      width: 125px;
+      width: 25%;
       text-align: center;
       /*outline: 5px solid red;
       outline-offset: -5px;*/ } }
@@ -441,7 +453,7 @@ img {
     font-style: normal;
     font-weight: bold;
     font-size: 12px;
-    width: 125px;
+    width: 9.6%;
     text-align: left;
     text-transform: uppercase; } }
 
