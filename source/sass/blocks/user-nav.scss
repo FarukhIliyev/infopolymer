@@ -1,0 +1,18 @@
+.user-nav {
+  @media (min-width: $desktop-width) {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    width: 125px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+}
+
+.user-nav__login-link {
+  @media (min-width: $desktop-width) {
+    color: $base-white;
+    text-shadow: 0.1em -0.3em 0.2em $base-black;
+  }
+}

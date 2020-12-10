@@ -313,7 +313,8 @@ template {
   .page-header {
     display: flex;
     width: 320px;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    text-align: center; } }
 
 @media (min-width: 768px) {
   .page-header {
@@ -321,7 +322,17 @@ template {
 
 @media (min-width: 1200px) {
   .page-header {
-    width: 1200px; } }
+    /*position: fixed;
+    top: 0;
+    left: 10%;*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    background: linear-gradient(to right, #41b516, #207500);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /*outline: 5px solid red;
+    outline-offset: -5px;*/ } }
 
 @media (min-width: 320px) {
   .page-main {
@@ -386,3 +397,70 @@ img {
   margin-bottom: inherit;
   font-size: 14px;
   line-height: 20px; }
+
+@media (min-width: 320px) {
+  .main-nav {
+    display: flex;
+    width: 320px; }
+    .main-nav .main-nav__list {
+      list-style: none; } }
+
+@media (min-width: 768px) {
+  .main-nav .main-nav__link {
+    color: #ffffff;
+    text-shadow: 0.1em -0.3em 0.2em #323232; } }
+
+@media (min-width: 1200px) {
+  .main-nav {
+    width: 500px; }
+    .main-nav .main-nav__list {
+      font-family: "PT Sans", "Arial", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      width: 500px;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase; }
+    .main-nav .main-nav__item {
+      width: 125px;
+      text-align: center;
+      /*outline: 5px solid red;
+      outline-offset: -5px;*/ } }
+
+@media (min-width: 1200px) {
+  .page-header__logo {
+    margin-top: 2px;
+    margin-left: 10px;
+    /*outline: 5px solid red;
+    outline-offset: -5px;*/ } }
+
+@media (min-width: 1200px) {
+  .user-nav {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    width: 125px;
+    text-align: left;
+    text-transform: uppercase; } }
+
+@media (min-width: 1200px) {
+  .user-nav__login-link {
+    color: #ffffff;
+    text-shadow: 0.1em -0.3em 0.2em #323232; } }
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 400;
+  font-style: normal;
+  src: local("PT Sans Regular"), url("../fonts/ptsans.woff2") format("woff2"), url("../fonts/ptsans.woff") format("woff"); }
+
+@font-face {
+  font-family: "PT Sans";
+  font-weight: 700;
+  font-style: normal;
+  src: local("PT Sans Bold"), url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff"); }
+
+.page-body__wrapper {
+  background-color: #f2f2f2; }

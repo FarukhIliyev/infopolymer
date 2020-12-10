@@ -3,6 +3,7 @@
     display: flex;
     width: 320px;
     margin: 0 auto;
+    text-align: center;
   }
 
   @media (min-width: $tablet-width) {
@@ -10,6 +11,16 @@
   }
 
   @media (min-width: $desktop-width) {
+    /*position: fixed;
+    top: 0;
+    left: 10%;*/
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 1200px;
+    background: linear-gradient(to right, $light-green, $dark-green);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    /*outline: 5px solid red;
+    outline-offset: -5px;*/
   }
 }
