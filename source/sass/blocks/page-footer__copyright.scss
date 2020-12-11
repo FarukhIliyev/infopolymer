@@ -1,0 +1,26 @@
+@media (min-width: $desktop-width) {
+  .copyright__text {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    margin: 0;
+    color: $base-white;
+    text-shadow: 0.1em -0.3em 0.2em $base-black;
+    text-transform: uppercase;
+  }
+
+  .copyright__link {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: $base-white;
+    text-shadow: 0.1em -0.3em 0.2em $base-black;
+    text-transform: uppercase;
+
+    .copyright__link__text {
+      margin: 0;
+    }
+  }
+}

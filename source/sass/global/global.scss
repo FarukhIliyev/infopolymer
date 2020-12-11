@@ -44,10 +44,14 @@ img {
   max-width: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 .feedback a {
   font-size: 22px;
   line-height: 30px;
-  color: var(--basic-black);
+  color: $base-black;
 }
 
 .feedback p {
