@@ -513,7 +513,8 @@ ul {
 
 @media (min-width: 1200px) {
   .page-footer__documentation {
-    width: 27%; }
+    width: 27%;
+    margin-left: 20%; }
   .documentation__list {
     display: flex;
     justify-content: space-between;
