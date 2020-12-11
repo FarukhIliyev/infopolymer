@@ -3,20 +3,20 @@
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     margin: 0;
     color: $base-white;
-    text-shadow: 0.1em -0.3em 0.2em $base-black;
-    text-transform: uppercase;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;
+    text-transform: uppercase;*/
   }
 
   .copyright__link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     color: $base-white;
-    text-shadow: 0.1em -0.3em 0.2em $base-black;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase;
 
     .copyright__link__text {

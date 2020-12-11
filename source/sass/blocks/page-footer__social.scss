@@ -1,6 +1,6 @@
 @media (min-width: $desktop-width) {
   .page-footer__social {
-    width: 13%;
+    width: 12%;
   }
 
   .social__list {
@@ -13,9 +13,8 @@
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
     color: $base-white;
-    text-shadow: 0.1em -0.3em 0.2em $base-black;
-    text-transform: uppercase;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
   }
 }
