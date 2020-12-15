@@ -25,46 +25,54 @@
 .user-nav__link {
   @media (min-width: $desktop-width) {
     color: $base-white;
-    text-shadow: 0.1em -0.3em 0.2em $base-black;
-  }
-
-  &::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    left: -31px;
-    width: 25px;
-    height: 25px;
-    border: 1px solid $base-black;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
   }
 }
 
 @media (min-width: $desktop-width) {
   .user-nav--entrance {
+    &::before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: 34px;
+      width: 25px;
+      height: 25px;
+      /*border: 1px solid $base-black;*/
+    }
+
     &::after {
       content: "";
       position: absolute;
-      top: -3px;
-      left: -28px;
-      width: 24px;
-      height: 24px;
-      background-image: url("../img/icon-ent.png");
+      top: -2px;
+      left: 34px;
+      width: 32px;
+      height: 32px;
+      background-image: url("../img/log-in.png");
       background-repeat: no-repeat;
-      border: 1px solid $base-black;
     }
   }
 
   .user-nav--registration {
+    &::before {
+      content: "";
+      position: absolute;
+      top: -6px;
+      left: 70px;
+      width: 25px;
+      height: 25px;
+      /*border: 1px solid $base-black;*/
+    }
+
     &::after {
       content: "";
       position: absolute;
-      top: -3px;
-      left: -28px;
-      width: 19px;
-      height: 19px;
-      background-image: url("../img/icon-ent.png");
+      top: -2px;
+      left: 70px;
+      width: 24px;
+      height: 24px;
+      background-image: url("../img/registration-icon.png");
       background-repeat: no-repeat;
-      border: 1px solid $base-black;
     }
   }
 }
