@@ -492,7 +492,7 @@ ul {
     left: 34px;
     width: 32px;
     height: 32px;
-    background-image: url("../img/log-in.png");
+    background-image: url("../img/icon-ent.png");
     background-repeat: no-repeat; }
   .user-nav--registration::before {
     content: "";
@@ -509,7 +509,7 @@ ul {
     left: 70px;
     width: 24px;
     height: 24px;
-    background-image: url("../img/icon-log-reg.png");
+    background-image: url("../img/icon-reg.png");
     background-repeat: no-repeat; } }
 
 @font-face {
