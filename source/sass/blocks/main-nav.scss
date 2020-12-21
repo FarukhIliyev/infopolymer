@@ -15,14 +15,14 @@
       text-shadow: 0.1em -0.3em 0.2em $base-black;
 
       &:hover {
-        color: $base-white;
+        color: $dark-green;
         text-shadow: 0 0 0 $base-black;
         background-color: $light-green;
         transition-duration: 0.5s;
       }
 
       &:active {
-        color: $dark-green;
+        color: $base-black;
         text-shadow: 0 0 0 $base-black;
       }
     }

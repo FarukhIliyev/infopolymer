@@ -23,5 +23,9 @@
       color: $dark-green;
       transition-duration: 0.3s;
     }
+
+    &:active {
+      color: $base-black;
+    }
   }
 }
