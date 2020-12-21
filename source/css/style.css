@@ -509,11 +509,7 @@ ul {
     left: 70px;
     width: 24px;
     height: 24px;
-<<<<<<< HEAD
-    background-image: url("../img/registration-icon.png");
-=======
     background-image: url("../img/icon-reg.png");
->>>>>>> 85d371609cbd6d3cfa40c7eea9384da1d2eb0c43
     background-repeat: no-repeat; } }
 
 @font-face {
