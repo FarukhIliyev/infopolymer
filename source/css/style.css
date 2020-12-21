@@ -425,11 +425,14 @@ ul {
 
 @media (min-width: 768px) {
   .main-nav .main-nav__link {
+    padding: 33px;
     color: #ffffff;
     text-shadow: 0.1em -0.3em 0.2em #323232; }
     .main-nav .main-nav__link:hover {
       color: #ffffff;
-      text-shadow: 0 0 0 #323232; }
+      text-shadow: 0 0 0 #323232;
+      background-color: #41b516;
+      transition-duration: 0.5s; }
     .main-nav .main-nav__link:active {
       color: #207500;
       text-shadow: 0 0 0 #323232; } }
@@ -441,21 +444,15 @@ ul {
       font-family: "PT Sans", "Arial", sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 10px;
+      font-size: 12px;
       width: 100%;
       display: flex;
       align-items: center;
       text-transform: uppercase; }
     .main-nav .main-nav__item {
-      width: 25%;
-      padding: 35px;
       text-align: center;
       /*outline: 5px solid red;
-      outline-offset: -5px;*/ }
-      .main-nav .main-nav__item:hover {
-        background-color: #41b516;
-        text-shadow: 0 0 0 #323232;
-        border-radius: 7px; } }
+      outline-offset: -5px;*/ } }
 
 @media (min-width: 1200px) {
   .page-header__logo {
@@ -496,7 +493,9 @@ ul {
   border-color: #41b516;
   background-color: #41b516;
   text-shadow: 0 0 0 #323232;
-  box-shadow: 0 0 0 #323232; }
+  box-shadow: 0 0 0 #323232;
+  border-radius: 0;
+  transition-duration: 0.3s; }
 
 .user-nav__link:active {
   color: #f2f2f2;
@@ -600,7 +599,10 @@ ul {
     font-size: 10px;
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
-    text-transform: uppercase; } }
+    text-transform: uppercase; }
+    .documentation__link:hover {
+      color: #207500;
+      transition-duration: 0.3s; } }
 
 @media (min-width: 1200px) {
   .page-footer__social {
@@ -609,6 +611,11 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 0; }
+  .social__item {
+    padding: 5px;
+    border: 5px solid #ffffff; }
+    .social__item:hover {
+      border: 5px solid #ffffff; }
   .social__link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;

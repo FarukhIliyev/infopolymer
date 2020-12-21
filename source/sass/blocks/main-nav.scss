@@ -10,12 +10,15 @@
 
   @media (min-width: $tablet-width) {
     .main-nav__link {
+      padding: 33px;
       color: $base-white;
       text-shadow: 0.1em -0.3em 0.2em $base-black;
 
       &:hover {
         color: $base-white;
         text-shadow: 0 0 0 $base-black;
+        background-color: $light-green;
+        transition-duration: 0.5s;
       }
 
       &:active {
@@ -32,7 +35,7 @@
       font-family: "PT Sans", "Arial", sans-serif;
       font-style: normal;
       font-weight: bold;
-      font-size: 10px;
+      font-size: 12px;
       width: 100%;
       display: flex;
       align-items: center;
@@ -40,17 +43,9 @@
     }
 
     .main-nav__item {
-      width: 25%;
-      padding: 35px;
       text-align: center;
       /*outline: 5px solid red;
       outline-offset: -5px;*/
-
-      &:hover {
-        background-color: $light-green;
-        text-shadow: 0 0 0 $base-black;
-        border-radius: 7px;
-      }
     }
   }
 }

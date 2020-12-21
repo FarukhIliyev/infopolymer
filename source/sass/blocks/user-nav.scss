@@ -38,6 +38,8 @@
     background-color: $light-green;
     text-shadow: 0 0 0 $base-black;
     box-shadow: 0 0 0 $base-black;
+    border-radius: 0;
+    transition-duration: 0.3s;
   }
 
   &:active {

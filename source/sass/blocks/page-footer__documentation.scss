@@ -18,5 +18,10 @@
     color: $base-white;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase;
+
+    &:hover {
+      color: $dark-green;
+      transition-duration: 0.3s;
+    }
   }
 }
