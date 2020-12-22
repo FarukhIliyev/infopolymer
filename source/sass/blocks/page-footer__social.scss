@@ -9,6 +9,15 @@
     padding: 0;
   }
 
+  .social__item {
+    padding: 5px;
+    border: 5px solid $base-white;
+
+    &:hover {
+      border: 5px solid $base-white;
+    }
+  }
+
   .social__link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;

@@ -17,7 +17,7 @@
 
     .user-nav__item {
       position: relative;
-      margin-right: 50px;
+      margin-right: 30px;
     }
   }
 }
@@ -25,10 +25,30 @@
 .user-nav__link {
   @media (min-width: $desktop-width) {
     color: $base-white;
-    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
+    border: 3px solid $base-white;
+    border-radius: 7px;
+    padding: 5px;
+    text-shadow: 0.1em -0.3em 0.2em $base-black;
+    box-shadow: 0.1em -0.3em 1.2em $base-black;
+  }
+
+  &:hover {
+    color: $dark-green;
+    border-color: $light-green;
+    background-color: $light-green;
+    text-shadow: 0 0 0 $base-black;
+    box-shadow: 0 0 0 $base-black;
+    border-radius: 0;
+    transition-duration: 0.3s;
+  }
+
+  &:active {
+    color: $base-black;
+    border-color: $dark-green;
+    box-shadow: 0.1em -0.3em 1.2em $base-black;
   }
 }
-
+/*
 @media (min-width: $desktop-width) {
   .user-nav--entrance {
     &::before {
@@ -38,16 +58,15 @@
       left: 34px;
       width: 25px;
       height: 25px;
-      /*border: 1px solid $base-black;*/
     }
 
     &::after {
       content: "";
       position: absolute;
       top: -2px;
-      left: 34px;
-      width: 32px;
-      height: 32px;
+      left: 35px;
+      width: 25px;
+      height: 25px;
       background-image: url("../img/icon-ent.png");
       background-repeat: no-repeat;
     }
@@ -61,18 +80,17 @@
       left: 70px;
       width: 25px;
       height: 25px;
-      /*border: 1px solid $base-black;*/
     }
 
     &::after {
       content: "";
       position: absolute;
       top: -2px;
-      left: 70px;
-      width: 24px;
-      height: 24px;
+      left: 67px;
+      width: 25px;
+      height: 25px;
       background-image: url("../img/icon-reg.png");
       background-repeat: no-repeat;
     }
   }
-}
+}*/

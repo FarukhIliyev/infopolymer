@@ -10,8 +10,21 @@
 
   @media (min-width: $tablet-width) {
     .main-nav__link {
+      padding: 33px;
       color: $base-white;
       text-shadow: 0.1em -0.3em 0.2em $base-black;
+
+      &:hover {
+        color: $dark-green;
+        text-shadow: 0 0 0 $base-black;
+        background-color: $light-green;
+        transition-duration: 0.5s;
+      }
+
+      &:active {
+        color: $base-black;
+        text-shadow: 0 0 0 $base-black;
+      }
     }
   }
 
@@ -30,7 +43,6 @@
     }
 
     .main-nav__item {
-      width: 25%;
       text-align: center;
       /*outline: 5px solid red;
       outline-offset: -5px;*/
