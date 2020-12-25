@@ -24,6 +24,7 @@
       &:active {
         color: $base-black;
         text-shadow: 0 0 0 $base-black;
+        transition-duration: 0.3s;
       }
     }
   }

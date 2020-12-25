@@ -10,12 +10,22 @@
   }
 
   .social__item {
-    padding: 5px;
-    border: 5px solid $base-white;
+    /*padding: 10px;
+    padding-top: 12px;
+    padding-right: 11px;
+    border-radius: 50%;
+    margin-right: 5px;
 
     &:hover {
-      border: 5px solid $base-white;
+      content: "";
+      background-color: $light-green;
+      transition-duration: 0.3s;
     }
+
+    &:active {
+      content: "";
+      transition-duration: 0.3s;
+    }*/
   }
 
   .social__link {
@@ -24,6 +34,24 @@
     font-weight: bold;
     font-size: 10px;
     color: $base-white;
+    padding: 10px;
+    padding-top: 12px;
+    padding-right: 11px;
+    border-radius: 50%;
+    margin-right: 5px;
+
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
+
+    &:hover {
+      content: "";
+      opacity: 0.5;
+      transition-duration: 0.3s;
+    }
+
+    &:active {
+      content: "";
+      opacity: 0.1;
+      transition-duration: 0.3s;
+    }
   }
 }
