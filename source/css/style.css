@@ -482,45 +482,6 @@ ul {
 @media (min-width: 1200px) {
   .user-nav__link {
     color: #ffffff;
-<<<<<<< HEAD
-    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/ } }
-
-@media (min-width: 1200px) {
-  .user-nav--entrance::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    left: 34px;
-    width: 25px;
-    height: 25px;
-    /*border: 1px solid $base-black;*/ }
-  .user-nav--entrance::after {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: 34px;
-    width: 32px;
-    height: 32px;
-    background-image: url("../img/icon-ent.png");
-    background-repeat: no-repeat; }
-  .user-nav--registration::before {
-    content: "";
-    position: absolute;
-    top: -6px;
-    left: 70px;
-    width: 25px;
-    height: 25px;
-    /*border: 1px solid $base-black;*/ }
-  .user-nav--registration::after {
-    content: "";
-    position: absolute;
-    top: -2px;
-    left: 70px;
-    width: 24px;
-    height: 24px;
-    background-image: url("../img/icon-reg.png");
-    background-repeat: no-repeat; } }
-=======
     border: 3px solid #ffffff;
     border-radius: 7px;
     padding: 5px;
@@ -540,7 +501,6 @@ ul {
   color: #323232;
   border-color: #207500;
   box-shadow: 0.1em -0.3em 1.2em #323232; }
->>>>>>> 9b48ecccb7e7a57b2539a0f56341268caafad49f
 
 /*
 @media (min-width: $desktop-width) {
