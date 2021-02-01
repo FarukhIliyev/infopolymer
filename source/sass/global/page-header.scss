@@ -1,13 +1,17 @@
 .page-header {
   @media (min-width: $mobile-width) {
     display: flex;
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
+    background: linear-gradient(to right, $light-green, $dark-green);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: 100%;
+    background: linear-gradient(to right, $light-green, $dark-green);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
   @media (min-width: $desktop-width) {
@@ -17,7 +21,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 1440px;
+    width: 100%;
     background: linear-gradient(to right, $light-green, $dark-green);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /*outline: 5px solid red;

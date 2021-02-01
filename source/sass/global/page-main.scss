@@ -1,16 +1,18 @@
 .page-main {
   @media (min-width: $mobile-width) {
-    width: 320px;
+    width: 100%;
     margin: 0 auto;
   }
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: 100%;
     margin: 0 auto;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+    outline: 5px solid red;
+    outline-offset: -5px;
   }
 }
