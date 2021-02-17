@@ -10,10 +10,12 @@
 }
 
 .user-nav__list {
-  @media (min-width: $desktop-width) {
+  @media (min-width: $tablet-width) {
     display: flex;
     width: 100%;
+  }
 
+  @media (min-width: $desktop-width) {
     .user-nav__item {
       position: relative;
       margin-right: 30px;

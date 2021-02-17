@@ -320,7 +320,9 @@ template {
 
 @media (min-width: 768px) {
   .page-header {
-    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: linear-gradient(to right, #41b516, #207500);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); } }
 
@@ -332,7 +334,6 @@ template {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     background: linear-gradient(to right, #41b516, #207500);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     /*outline: 5px solid red;
@@ -441,19 +442,30 @@ ul {
       list-style: none; } }
 
 @media (min-width: 768px) {
-  .main-nav .main-nav__link {
-    padding: 33px;
-    color: #ffffff;
-    text-shadow: 0.1em -0.3em 0.2em #323232; }
-    .main-nav .main-nav__link:hover {
-      color: #207500;
-      text-shadow: 0 0 0 #323232;
-      background-color: #41b516;
-      transition-duration: 0.5s; }
-    .main-nav .main-nav__link:active {
-      color: #323232;
-      text-shadow: 0 0 0 #323232;
-      transition-duration: 0.3s; } }
+  .main-nav {
+    width: 400px; }
+    .main-nav .main-nav__list {
+      font-family: "PT Sans", "Arial", sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 12px;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      text-transform: uppercase; }
+    .main-nav .main-nav__link {
+      padding: 33px;
+      color: #ffffff;
+      text-shadow: 0.1em -0.3em 0.2em #323232; }
+      .main-nav .main-nav__link:hover {
+        color: #207500;
+        text-shadow: 0 0 0 #323232;
+        background-color: #41b516;
+        transition-duration: 0.5s; }
+      .main-nav .main-nav__link:active {
+        color: #323232;
+        text-shadow: 0 0 0 #323232;
+        transition-duration: 0.3s; } }
 
 @media (min-width: 1200px) {
   .main-nav {
@@ -488,13 +500,15 @@ ul {
     text-align: left;
     text-transform: uppercase; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .user-nav__list {
     display: flex;
-    width: 100%; }
-    .user-nav__list .user-nav__item {
-      position: relative;
-      margin-right: 30px; } }
+    width: 100%; } }
+
+@media (min-width: 1200px) {
+  .user-nav__list .user-nav__item {
+    position: relative;
+    margin-right: 30px; } }
 
 @media (min-width: 1200px) {
   .user-nav__link {
