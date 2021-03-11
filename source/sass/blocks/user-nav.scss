@@ -1,4 +1,13 @@
 .user-nav {
+  @media (min-width: $tablet-width) {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+  }
+
   @media (min-width: $desktop-width) {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
@@ -14,16 +23,25 @@
     display: flex;
     width: 100%;
   }
+}
 
-  @media (min-width: $desktop-width) {
-    .user-nav__item {
-      position: relative;
-      margin-right: 30px;
-    }
+.user-nav__item {
+  @media (min-width: $tablet-width) {
+    position: relative;
+    margin-right: 30px;
   }
 }
 
 .user-nav__link {
+  @media (min-width: $tablet-width) {
+    color: $base-white;
+    border: 3px solid $base-white;
+    border-radius: 7px;
+    padding: 5px;
+    text-shadow: 0.1em -0.3em 0.2em $base-black;
+    box-shadow: 0.1em -0.3em 1.2em $base-black;
+  }
+
   @media (min-width: $desktop-width) {
     color: $base-white;
     border: 3px solid $base-white;
