@@ -443,20 +443,21 @@ ul {
 
 @media (min-width: 768px) {
   .main-nav {
-    width: 400px; }
+    width: 500px; }
     .main-nav .main-nav__list {
       font-family: "PT Sans", "Arial", sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
-      width: 100%;
       display: flex;
       align-items: center;
       text-transform: uppercase; }
     .main-nav .main-nav__link {
       padding: 33px;
       color: #ffffff;
-      text-shadow: 0.1em -0.3em 0.2em #323232; }
+      text-shadow: 0.1em -0.3em 0.2em #323232;
+      outline: 1px solid black;
+      outline-offset: -1px; }
       .main-nav .main-nav__link:hover {
         color: #207500;
         text-shadow: 0 0 0 #323232;
@@ -465,28 +466,34 @@ ul {
       .main-nav .main-nav__link:active {
         color: #323232;
         text-shadow: 0 0 0 #323232;
-        transition-duration: 0.3s; } }
+        transition-duration: 0.3s; }
+    .main-nav .main-nav__item {
+      text-align: center; } }
 
 @media (min-width: 1200px) {
   .main-nav {
-    width: 500px; }
+    /*width: 500px;*/ }
     .main-nav .main-nav__list {
       font-family: "PT Sans", "Arial", sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
-      width: 100%;
       display: flex;
       align-items: center;
       text-transform: uppercase; }
     .main-nav .main-nav__item {
-      text-align: center;
-      /*outline: 5px solid red;
-      outline-offset: -5px;*/ } }
+      text-align: center; } }
+
+@media (min-width: 768px) {
+  .page-header__logo {
+    margin-top: 5px;
+    margin-left: 10px;
+    /*outline: 5px solid red;
+    outline-offset: -5px;*/ } }
 
 @media (min-width: 1200px) {
   .page-header__logo {
-    margin-top: 2px;
+    margin-top: 5px;
     margin-left: 10px;
     /*outline: 5px solid red;
     outline-offset: -5px;*/ } }
@@ -511,8 +518,7 @@ ul {
 
 @media (min-width: 768px) {
   .user-nav__list {
-    display: flex;
-    width: 100%; } }
+    display: flex; } }
 
 @media (min-width: 768px) {
   .user-nav__item {
@@ -613,7 +619,7 @@ ul {
 .page-body__wrapper {
   background-color: #f2f2f2; }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .copyright__text {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
@@ -635,9 +641,47 @@ ul {
       margin: 0; } }
 
 @media (min-width: 1200px) {
-  .page-footer__documentation {
-    width: 21%;
-    margin-left: 22%; }
+  .copyright__text {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin: 0;
+    color: #ffffff;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;
+    text-transform: uppercase;*/ }
+  .copyright__link {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    color: #ffffff;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
+    text-transform: uppercase; }
+    .copyright__link .copyright__link__text {
+      margin: 0; } }
+
+@media (min-width: 768px) {
+  .documentation__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0; }
+  .documentation__link {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 7px;
+    color: #ffffff;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
+    text-transform: uppercase; }
+    .documentation__link:hover {
+      color: #207500;
+      transition-duration: 0.3s; }
+    .documentation__link:active {
+      color: #323232; } }
+
+@media (min-width: 1200px) {
   .documentation__list {
     display: flex;
     justify-content: space-around;
@@ -656,13 +700,15 @@ ul {
     .documentation__link:active {
       color: #323232; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .page-footer__social {
     width: 12%; }
   .social__list {
     display: flex;
     justify-content: space-between;
-    padding: 0; }
+    padding: 0; } }
+
+@media (min-width: 1200px) {
   .social__item {
     /*padding: 10px;
     padding-top: 12px;

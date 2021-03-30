@@ -1,4 +1,4 @@
-@media (min-width: $desktop-width) {
+@media (min-width: $tablet-width) {
   .page-footer__social {
     width: 12%;
   }
@@ -8,7 +8,9 @@
     justify-content: space-between;
     padding: 0;
   }
+}
 
+@media (min-width: $desktop-width) {
   .social__item {
     /*padding: 10px;
     padding-top: 12px;

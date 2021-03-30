@@ -9,14 +9,13 @@
   }
 
   @media (min-width: $tablet-width) {
-    width: 400px;
+    width: 500px;
 
     .main-nav__list {
       font-family: "PT Sans", "Arial", sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
-      width: 100%;
       display: flex;
       align-items: center;
       text-transform: uppercase;
@@ -26,6 +25,8 @@
       padding: 33px;
       color: $base-white;
       text-shadow: 0.1em -0.3em 0.2em $base-black;
+      outline: 1px solid black;
+      outline-offset: -1px;
 
       &:hover {
         color: $dark-green;
@@ -40,17 +41,20 @@
         transition-duration: 0.3s;
       }
     }
+
+    .main-nav__item {
+      text-align: center;
+    }
   }
 
   @media (min-width: $desktop-width) {
-    width: 500px;
+    /*width: 500px;*/
 
     .main-nav__list {
       font-family: "PT Sans", "Arial", sans-serif;
       font-style: normal;
       font-weight: bold;
       font-size: 12px;
-      width: 100%;
       display: flex;
       align-items: center;
       text-transform: uppercase;
@@ -58,8 +62,6 @@
 
     .main-nav__item {
       text-align: center;
-      /*outline: 5px solid red;
-      outline-offset: -5px;*/
     }
   }
 }

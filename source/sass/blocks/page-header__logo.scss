@@ -1,6 +1,15 @@
 .page-header__logo {
+  @media (min-width: $tablet-width) {
+    margin-top: 5px;
+    margin-left: 10px;
+    /*outline: 5px solid red;
+    outline-offset: -5px;*/
+  }
+}
+
+.page-header__logo {
   @media (min-width: $desktop-width) {
-    margin-top: 2px;
+    margin-top: 5px;
     margin-left: 10px;
     /*outline: 5px solid red;
     outline-offset: -5px;*/

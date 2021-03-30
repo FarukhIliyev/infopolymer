@@ -1,9 +1,32 @@
-@media (min-width: $desktop-width) {
-  .page-footer__documentation {
-    width: 21%;
-    margin-left: 22%;
+@media (min-width: $tablet-width) {
+  .documentation__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
   }
 
+  .documentation__link {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    margin-left: 7px;
+    color: $base-white;
+    /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
+    text-transform: uppercase;
+
+    &:hover {
+      color: $dark-green;
+      transition-duration: 0.3s;
+    }
+
+    &:active {
+      color: $base-black;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
   .documentation__list {
     display: flex;
     justify-content: space-around;
