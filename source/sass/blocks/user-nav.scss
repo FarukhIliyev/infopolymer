@@ -19,8 +19,13 @@
 }
 
 .user-nav__list {
+  @media (min-width: $mobile-width) {
+    padding: 0;
+  }
+
   @media (min-width: $tablet-width) {
     display: flex;
+    padding: 0;
   }
 }
 

@@ -2,6 +2,8 @@
   @media (min-width: $mobile-width) {
     width: 100%;
     margin: 0 auto;
+    outline: 1px solid black;
+    outline-offset: -1px;
   }
 
   @media (min-width: $tablet-width) {
@@ -12,7 +14,5 @@
   @media (min-width: $desktop-width) {
     width: 100%;
     margin: 0 auto;
-    outline: 5px solid red;
-    outline-offset: -5px;
   }
 }
