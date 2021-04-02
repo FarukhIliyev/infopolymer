@@ -1,11 +1,11 @@
 @media (min-width: $tablet-width) {
-  .documentation__list {
+  .documentation-list {
     display: flex;
     justify-content: space-around;
     padding: 0;
   }
 
-  .documentation__link {
+  .documentation-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -27,13 +27,13 @@
 }
 
 @media (min-width: $desktop-width) {
-  .documentation__list {
+  .documentation-list {
     display: flex;
     justify-content: space-around;
     padding: 0;
   }
 
-  .documentation__link {
+  .documentation-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;

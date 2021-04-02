@@ -625,7 +625,7 @@ ul {
   background-color: #f2f2f2; }
 
 @media (min-width: 768px) {
-  .copyright__text {
+  .copyright-text {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -634,7 +634,7 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;
     text-transform: uppercase;*/ }
-  .copyright__link {
+  .copyright-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -642,11 +642,11 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase; }
-    .copyright__link .copyright__link__text {
+    .copyright-link .copyright__link__text {
       margin: 0; } }
 
 @media (min-width: 1200px) {
-  .copyright__text {
+  .copyright-text {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -655,7 +655,7 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;
     text-transform: uppercase;*/ }
-  .copyright__link {
+  .copyright-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -663,15 +663,15 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase; }
-    .copyright__link .copyright__link__text {
+    .copyright-link .copyright-link__text {
       margin: 0; } }
 
 @media (min-width: 768px) {
-  .documentation__list {
+  .documentation-list {
     display: flex;
     justify-content: space-around;
     padding: 0; }
-  .documentation__link {
+  .documentation-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -680,18 +680,18 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase; }
-    .documentation__link:hover {
+    .documentation-link:hover {
       color: #207500;
       transition-duration: 0.3s; }
-    .documentation__link:active {
+    .documentation-link:active {
       color: #323232; } }
 
 @media (min-width: 1200px) {
-  .documentation__list {
+  .documentation-list {
     display: flex;
     justify-content: space-around;
     padding: 0; }
-  .documentation__link {
+  .documentation-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -699,22 +699,22 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase; }
-    .documentation__link:hover {
+    .documentation-link:hover {
       color: #207500;
       transition-duration: 0.3s; }
-    .documentation__link:active {
+    .documentation-link:active {
       color: #323232; } }
 
 @media (min-width: 768px) {
   .page-footer__social {
     width: 12%; }
-  .social__list {
+  .social-list {
     display: flex;
     justify-content: space-between;
     padding: 0; } }
 
 @media (min-width: 1200px) {
-  .social__item {
+  .social-item {
     /*padding: 10px;
     padding-top: 12px;
     padding-right: 11px;
@@ -731,7 +731,7 @@ ul {
       content: "";
       transition-duration: 0.3s;
     }*/ }
-  .social__link {
+  .social-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -743,11 +743,11 @@ ul {
     border-radius: 50%;
     margin-right: 5px;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/ }
-    .social__link:hover {
+    .social-link:hover {
       content: "";
       opacity: 0.5;
       transition-duration: 0.3s; }
-    .social__link:active {
+    .social-link:active {
       content: "";
       opacity: 0.1;
       transition-duration: 0.3s; } }

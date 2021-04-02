@@ -1,5 +1,5 @@
 @media (min-width: $tablet-width) {
-  .copyright__text {
+  .copyright-text {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -10,7 +10,7 @@
     text-transform: uppercase;*/
   }
 
-  .copyright__link {
+  .copyright-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -26,7 +26,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .copyright__text {
+  .copyright-text {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -37,7 +37,7 @@
     text-transform: uppercase;*/
   }
 
-  .copyright__link {
+  .copyright-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -46,7 +46,7 @@
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase;
 
-    .copyright__link__text {
+    .copyright-link__text {
       margin: 0;
     }
   }

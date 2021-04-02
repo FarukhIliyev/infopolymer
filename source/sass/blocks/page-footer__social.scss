@@ -3,7 +3,7 @@
     width: 12%;
   }
 
-  .social__list {
+  .social-list {
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -11,7 +11,7 @@
 }
 
 @media (min-width: $desktop-width) {
-  .social__item {
+  .social-item {
     /*padding: 10px;
     padding-top: 12px;
     padding-right: 11px;
@@ -30,7 +30,7 @@
     }*/
   }
 
-  .social__link {
+  .social-link {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
