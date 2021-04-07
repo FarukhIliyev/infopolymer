@@ -633,7 +633,7 @@ ul {
     color: #ffffff;
     /*text-shadow: 0.1em -0.3em 0.2em $base-black;*/
     text-transform: uppercase; }
-    .copyright-link .copyright__link__text {
+    .copyright-link .copyright-link__text {
       margin: 0; } }
 
 @media (min-width: 1200px) {
