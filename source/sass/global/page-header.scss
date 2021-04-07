@@ -20,10 +20,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  @media (max-width: $max-desktop-width) {
-    /*position: fixed;
-    top: 0;
-    left: 10%;*/
+  @media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
