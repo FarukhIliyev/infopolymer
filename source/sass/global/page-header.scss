@@ -14,7 +14,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
 
-  @media (min-width: $desktop-width) {
+  @media (max-width: 1440px) and (min-width: $desktop-width) {
     /*position: fixed;
     top: 0;
     left: 10%;*/

@@ -323,7 +323,7 @@ template {
       align-items: center;
       background: linear-gradient(to right, #41b516, #207500);
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); } }
-  @media (min-width: 1200px) {
+  @media (max-width: 1440px) and (min-width: 1200px) {
     .page-header {
       /*position: fixed;
     top: 0;
