@@ -10,7 +10,7 @@
   }
 }
 
-@media (min-width: $desktop-width) {
+@media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
   .social-item {
     /*padding: 10px;
     padding-top: 12px;
