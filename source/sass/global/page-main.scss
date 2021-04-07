@@ -1,9 +1,10 @@
 .page-main {
-  width: 100%;
-  margin: 0 auto;
-  outline: 1px solid black;
-  outline-offset: -1px;
-
+  @media (min-width: $mobile-width) {
+    width: 100%;
+    margin: 0 auto;
+    outline: 1px solid black;
+    outline-offset: -1px;
+  }
   @media (min-width: $tablet-width) {
     width: 100%;
     margin: 0 auto;
