@@ -1,13 +1,12 @@
-/*.container {
-  width: 320px;
+.container {
+  width: 100%;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: 100%;
   }
 
-  @media (min-width: $desktop-width) {
-    width: 1200px;
+  @media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
+    min-width: 100%;
   }
 }
-*/
