@@ -640,9 +640,9 @@ ul {
   font-style: normal;
   src: local("PT Sans Bold"), url("../fonts/ptsansbold.woff2") format("woff2"), url("../fonts/ptsansbold.woff") format("woff"); }
 
-/*.page-body__wrapper {
-  background-color: $light-gray;
-}*/
+.page-body__wrapper {
+  background-color: #f2f2f2; }
+
 @media (min-width: 768px) {
   .copyright-text {
     font-family: "PT Sans", "Arial", sans-serif;
