@@ -1,16 +1,13 @@
 .page-header {
-  @media (min-width: $mobile-width) {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    margin: 0 auto;
-    width: 100%;
-    background: linear-gradient(to right, $light-green, $dark-green);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  }
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  background: linear-gradient(to right, $light-green, $dark-green);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
   @media (min-width: $tablet-width) {
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
@@ -20,8 +17,6 @@
   }
 
   @media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
     background: linear-gradient(to right, $light-green, $dark-green);
