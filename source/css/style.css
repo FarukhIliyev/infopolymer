@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -412,11 +413,14 @@ body {
   background-color: $base-white;*/ }
 
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  /* из-за того, что во всём макете выключено подчёркивание ссылок. На живых сайтах такого обычно не происходит */ }
 
 img {
   display: block;
-  max-width: 100%; }
+  max-width: 100%;
+  height: auto;
+  /* эти параметры нужны, чтобы картинки не теряли пропорции ни при каких обстоятельствах */ }
 
 ul {
   list-style: none; }
@@ -439,7 +443,8 @@ ul {
     display: flex;
     margin: 0 auto; }
     .main-nav .main-nav__list {
-      list-style: none; } }
+      list-style: none;
+      /*ненужные буллиты убраны*/ } }
 
 @media (min-width: 768px) {
   .main-nav {
@@ -535,6 +540,8 @@ ul {
 @media (min-width: 768px) {
   .user-nav__list {
     display: flex;
+    flex-shrink: 0;
+    /*пользовательскую навигацию сжимать нельзя*/
     padding: 0; } }
 
 @media (min-width: 768px) {
@@ -543,7 +550,8 @@ ul {
     margin-right: 30px; } }
 
 @media (min-width: 768px) {
-  .user-nav__link {
+  .button-outline,
+  .button-filled {
     color: #ffffff;
     border: 3px solid #ffffff;
     border-radius: 7px;
@@ -552,7 +560,8 @@ ul {
     box-shadow: 0.1em -0.3em 1.2em #323232; } }
 
 @media (min-width: 1200px) and (max-width: 1440px) {
-  .user-nav__link {
+  .button-outline,
+  .button-filled {
     color: #ffffff;
     border: 3px solid #ffffff;
     border-radius: 7px;
@@ -560,7 +569,8 @@ ul {
     text-shadow: 0.1em -0.3em 0.2em #323232;
     box-shadow: 0.1em -0.3em 1.2em #323232; } }
 
-.user-nav__link:hover {
+.button-outline:hover,
+.button-filled:hover {
   color: #207500;
   border-color: #41b516;
   background-color: #41b516;
@@ -569,7 +579,8 @@ ul {
   border-radius: 0;
   transition-duration: 0.3s; }
 
-.user-nav__link:active {
+.button-outline:active,
+.button-filled:active {
   color: #323232;
   border-color: #207500;
   box-shadow: 0.1em -0.3em 1.2em #323232;
