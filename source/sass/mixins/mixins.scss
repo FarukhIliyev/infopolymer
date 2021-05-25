@@ -1,0 +1,6 @@
+@mixin hovering {
+  &:hover {
+    background-color: $light-green;
+    transition-duration: 0.5s;
+  }
+}
