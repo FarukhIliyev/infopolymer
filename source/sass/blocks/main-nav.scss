@@ -52,12 +52,13 @@
   }
 
   .main-nav__item {
-    padding: 0;
+    width: 100%;
+    padding-top: 33px;
+    padding-bottom: 33px;
     border: none;
   }
 
   .main-nav__link {
-    padding: 33px;
     color: $base-white;
     text-shadow: 0.1em -0.3em 0.2em $base-black;
     /*outline: 1px solid black;

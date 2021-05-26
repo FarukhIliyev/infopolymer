@@ -1,5 +1,5 @@
-/*.container {
-  width: 100%;
+.container {
+  width: 320px;
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
@@ -9,4 +9,4 @@
   @media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
     min-width: 100%;
   }
-}*/
+}

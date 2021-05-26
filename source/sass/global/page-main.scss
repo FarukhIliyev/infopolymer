@@ -1,28 +1,47 @@
-.page-main {
-  display: grid;
-  grid-template-columns: 350px 350px 350px;
-  min-height: 63vh;
-  margin: 0 auto;
+@media (min-width: $mobile-width) {
+  .page-main {
+    width: 320px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-auto-rows: 1fr 1fr 1fr 1fr;
+    min-height: 63vh;
+    margin: 0 auto;
 
-  *>* {
-    outline: 4px solid green;
-    outline-offset: -1px;
+    *>* {
+      outline: 1px solid green;
+      outline-offset: -1px;
+    }
   }
 
-  @media (min-width: $mobile-width) {
-    width: 100%;
-    margin: 0 auto;
-    /*outline: 4px solid yellow;
-    outline-offset: -1px;*/
-  }
-
-  @media (min-width: $tablet-width) {
-    width: 100%;
+  .page-main__b-news,
+  .page-main__b-company,
+  .page-main__b-forum,
+  .page-main__b-doc {
+    width: 280px;
     margin: 0 auto;
   }
+}
 
-  @media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
+@media (min-width: $tablet-width) {
+  .page-main {
+    grid-template-columns: 35% 35%;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+  }
+
+  .page-main__b-news,
+  .page-main__b-company,
+  .page-main__b-forum,
+  .page-main__b-doc {
     width: 100%;
-    margin: 0 auto;
+    margin: 0;
+  }
+}
+
+@media (min-width: $min-desktop-width) and (max-width: $max-desktop-width) {
+  .page-main {
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 1fr 1fr 1fr;
   }
 }
