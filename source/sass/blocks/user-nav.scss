@@ -1,4 +1,4 @@
-@media (min-width: $mobile-width) {
+/*@media (min-width: $mobile-width) {
   .user-nav__list {
     margin: 0;
     padding: 0;
@@ -23,7 +23,7 @@
 @media (min-width: $tablet-width) {
   .user-nav__list {
     display: flex;
-    flex-shrink: 0; /*пользовательскую навигацию сжимать нельзя*/
+    flex-shrink: 0;
     padding: 0;
   }
 
@@ -75,7 +75,7 @@
     box-shadow: 0.1em -0.3em 1.2em $base-black;
   }
 }
-
+*/
 /*
 @media (min-width: $desktop-width) {
   .user-nav--entrance {
