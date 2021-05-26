@@ -467,9 +467,7 @@ ul {
 
 @media (min-width: 768px) {
   .main-nav {
-    display: flex;
-    justify-content: space-around;
-    width: 650px; }
+    width: 500px; }
   .main-nav__list {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
@@ -535,7 +533,7 @@ ul {
 
 @media (min-width: 320px) {
   .user-nav__list {
-    margin-left: 50px;
+    margin: 0;
     padding: 0; }
   .user-nav__item {
     font-family: "PT Sans", "Arial", sans-serif;
@@ -562,44 +560,45 @@ ul {
     margin-right: 30px;
     border: none; } }
 
-.button-outline,
-.button-filled {
-  /*@media (min-width: $mobile-width) {
-    color: $base-white;
-  }*/ }
-  @media (min-width: 768px) {
-    .button-outline,
-    .button-filled {
-      color: #ffffff;
-      border: 3px solid #ffffff;
-      border-radius: 7px;
-      padding: 5px;
-      text-shadow: 0.1em -0.3em 0.2em #323232;
-      box-shadow: 0.1em -0.3em 1.2em #323232; }
-      .button-outline:hover,
-      .button-filled:hover {
-        color: #207500;
-        border-color: #41b516;
-        background-color: #41b516;
-        text-shadow: 0 0 0 #323232;
-        box-shadow: 0 0 0 #323232;
-        border-radius: 0;
-        transition-duration: 0.3s; }
-      .button-outline:active,
-      .button-filled:active {
-        color: #323232;
-        border-color: #207500;
-        box-shadow: 0.1em -0.3em 1.2em #323232;
-        transition-duration: 0.3s; } }
-  @media (min-width: 1200px) and (max-width: 1440px) {
-    .button-outline,
-    .button-filled {
-      color: #ffffff;
-      border: 3px solid #ffffff;
-      border-radius: 7px;
-      padding: 5px;
-      text-shadow: 0.1em -0.3em 0.2em #323232;
-      box-shadow: 0.1em -0.3em 1.2em #323232; } }
+@media (min-width: 320px) {
+  .button-outline,
+  .button-filled {
+    color: #ffffff; } }
+
+@media (min-width: 768px) {
+  .button-outline,
+  .button-filled {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    padding: 5px;
+    text-shadow: 0.1em -0.3em 0.2em #323232;
+    box-shadow: 0.1em -0.3em 1.2em #323232; }
+    .button-outline:hover,
+    .button-filled:hover {
+      color: #207500;
+      border-color: #41b516;
+      background-color: #41b516;
+      text-shadow: 0 0 0 #323232;
+      box-shadow: 0 0 0 #323232;
+      border-radius: 0;
+      transition-duration: 0.3s; }
+    .button-outline:active,
+    .button-filled:active {
+      color: #323232;
+      border-color: #207500;
+      box-shadow: 0.1em -0.3em 1.2em #323232;
+      transition-duration: 0.3s; } }
+
+@media (min-width: 1200px) and (max-width: 1440px) {
+  .button-outline,
+  .button-filled {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+    border-radius: 7px;
+    padding: 5px;
+    text-shadow: 0.1em -0.3em 0.2em #323232;
+    box-shadow: 0.1em -0.3em 1.2em #323232; } }
 
 /*
 @media (min-width: $desktop-width) {
