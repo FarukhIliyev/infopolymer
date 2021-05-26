@@ -36,9 +36,9 @@
 
 .button-outline,
 .button-filled {
-  @media (min-width: $mobile-width) {
+  /*@media (min-width: $mobile-width) {
     color: $base-white;
-  }
+  }*/
 
   @media (min-width: $tablet-width) {
     color: $base-white;
