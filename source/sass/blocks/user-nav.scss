@@ -1,6 +1,6 @@
-/*@media (min-width: $mobile-width) {
+@media (min-width: $mobile-width) {
   .user-nav__list {
-    margin: 0;
+    margin-left: 50px;
     padding: 0;
   }
 
@@ -36,9 +36,9 @@
 
 .button-outline,
 .button-filled {
-  @media (min-width: $mobile-width) {
+  /*@media (min-width: $mobile-width) {
     color: $base-white;
-  }
+  }*/
 
   @media (min-width: $tablet-width) {
     color: $base-white;
@@ -75,7 +75,7 @@
     box-shadow: 0.1em -0.3em 1.2em $base-black;
   }
 }
-*/
+
 /*
 @media (min-width: $desktop-width) {
   .user-nav--entrance {

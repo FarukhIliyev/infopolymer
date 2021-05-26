@@ -38,7 +38,9 @@
 
 @media (min-width: $tablet-width) {
   .main-nav {
-    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 650px;
   }
 
   .main-nav__list {
