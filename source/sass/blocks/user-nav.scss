@@ -69,7 +69,7 @@
     }
   }
 
-  @media (min-width: $desktop-width) and (max-width: $max-desktop-width) {
+  @media (min-width: $desktop-width) {
     color: $base-white;
     border: 3px solid $base-white;
     border-radius: 7px;
