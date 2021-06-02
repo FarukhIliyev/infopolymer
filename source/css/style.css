@@ -519,15 +519,13 @@ ul {
     align-items: center;
     text-transform: uppercase; } }
 
-.container {
-  width: 320px;
-  margin: 0 auto; }
-  @media (min-width: 768px) {
-    .container {
-      width: 100%; } }
-  @media (min-width: 1200px) {
-    .container {
-      min-width: 100%; } }
+@media (min-width: 768px) {
+  .container {
+    width: 100%; } }
+
+@media (min-width: 1200px) {
+  .container {
+    min-width: 100%; } }
 
 @media (min-width: 768px) {
   .page-header__logo {
