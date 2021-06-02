@@ -79,7 +79,7 @@
   }
 }
 
-@media (min-width: $min-desktop-width) and ($max-desktop-width) {
+@media (min-width: $desktop-width) and ($max-desktop-width) {
   .main-nav__list {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
