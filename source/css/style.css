@@ -539,10 +539,10 @@ ul {
     outline-offset: -5px;*/ } }
 
 @media (min-width: 320px) {
-  .user-nav__list {
+  .user-nav .user-nav__list {
     margin: 0;
     padding: 0; }
-  .user-nav__item {
+  .user-nav .user-nav__item {
     font-family: "PT Sans", "Arial", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -553,37 +553,32 @@ ul {
     padding-bottom: 20px;
     border-top: 1px solid #41b516;
     border-bottom: 1px solid #207500; }
-    .user-nav__item:hover {
+    .user-nav .user-nav__item:hover {
       background-color: #41b516;
-      transition-duration: 0.5s; } }
-
-@media (min-width: 768px) {
-  .user-nav {
-    width: 200px; }
-  .user-nav__list {
-    display: flex;
-    justify-content: space-around;
-    padding: 0; }
-  .user-nav__item {
-    position: relative;
-    border: none; } }
-
-@media (min-width: 320px) {
-  .button-outline,
-  .button-filled {
+      transition-duration: 0.5s; }
+  .user-nav .button-outline,
+  .user-nav .button-filled {
     color: #ffffff; } }
 
 @media (min-width: 768px) {
-  .button-outline,
-  .button-filled {
-    color: #ffffff;
+  .user-nav .user-nav {
+    width: 200px; }
+  .user-nav .user-nav__list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0; }
+  .user-nav .user-nav__item {
+    position: relative;
+    border: none; }
+  .user-nav .button-outline,
+  .user-nav .button-filled {
     border: 3px solid #ffffff;
     border-radius: 7px;
     padding: 5px;
     text-shadow: 0.1em -0.3em 0.2em #323232;
     box-shadow: 0.1em -0.3em 1.2em #323232; }
-    .button-outline:hover,
-    .button-filled:hover {
+    .user-nav .button-outline:hover,
+    .user-nav .button-filled:hover {
       color: #207500;
       border-color: #41b516;
       background-color: #41b516;
@@ -591,22 +586,12 @@ ul {
       box-shadow: 0 0 0 #323232;
       border-radius: 0;
       transition-duration: 0.3s; }
-    .button-outline:active,
-    .button-filled:active {
+    .user-nav .button-outline:active,
+    .user-nav .button-filled:active {
       color: #323232;
       border-color: #207500;
       box-shadow: 0.1em -0.3em 1.2em #323232;
       transition-duration: 0.3s; } }
-
-@media (min-width: 1200px) {
-  .button-outline,
-  .button-filled {
-    color: #ffffff;
-    border: 3px solid #ffffff;
-    border-radius: 7px;
-    padding: 5px;
-    text-shadow: 0.1em -0.3em 0.2em #323232;
-    box-shadow: 0.1em -0.3em 1.2em #323232; } }
 
 /*
 @media (min-width: $desktop-width) {
