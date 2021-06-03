@@ -15,28 +15,29 @@
     width: 280px;
     margin: 0 auto;
   }
-}
 
-@media (min-width: $tablet-width) {
-  .page-main {
-    grid-template-columns: 35% 35%;
-    grid-template-rows: 1fr 1fr;
-    grid-column-gap: 10px;
-    grid-row-gap: 15px;
+  @media (min-width: $tablet-width) {
+    .page-main {
+      grid-template-columns: 35% 35%;
+      grid-template-rows: 1fr 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+    }
+
+    .page-main__b-news,
+    .page-main__b-company,
+    .page-main__b-forum,
+    .page-main__b-doc {
+      width: 100%;
+      margin: 0;
+    }
   }
 
-  .page-main__b-news,
-  .page-main__b-company,
-  .page-main__b-forum,
-  .page-main__b-doc {
-    width: 100%;
-    margin: 0;
+  @media (min-width: $desktop-width) {
+    .page-main {
+      grid-template-columns: 25% 25% 25%;
+      grid-template-rows: 1fr 1fr;
+    }
   }
 }
 
-@media (min-width: $desktop-width) {
-  .page-main {
-    grid-template-columns: 25% 25% 25%;
-    grid-template-rows: 1fr 1fr;
-  }
-}

@@ -350,7 +350,7 @@ template {
     width: 280px;
     margin: 0 auto; } }
 
-@media (min-width: 768px) {
+@media (min-width: 320px) and (min-width: 768px) {
   .page-main {
     grid-template-columns: 35% 35%;
     grid-template-rows: 1fr 1fr;
@@ -363,7 +363,7 @@ template {
     width: 100%;
     margin: 0; } }
 
-@media (min-width: 1200px) {
+@media (min-width: 320px) and (min-width: 1200px) {
   .page-main {
     grid-template-columns: 25% 25% 25%;
     grid-template-rows: 1fr 1fr; } }
