@@ -1,5 +1,33 @@
-@media (min-width: $mobile-width) {
-  .page-main {
+.page-main {
+  @media (min-width: $tablet-width) {
+    .page-main {
+      display: grid;
+      grid-template-columns: 35% 35%;
+      grid-template-rows: 1fr 1fr;
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+    }
+
+    .page-main__b-news,
+    .page-main__b-company,
+    .page-main__b-forum,
+    .page-main__b-doc {
+      width: 100%;
+      margin: 0;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    .page-main {
+      grid-template-columns: 25% 25% 25%;
+      grid-template-rows: 1fr 1fr;
+    }
+  }
+}
+
+
+/*.page-main {
+  @media (min-width: $mobile-width) {
     width: 320px;
     display: grid;
     grid-template-columns: 100%;
@@ -40,4 +68,4 @@
     }
   }
 }
-
+*/
